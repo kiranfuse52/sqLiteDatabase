@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <EditText
+       android:id="@+id/Student_name"
+       android:layout_marginLeft="10dp"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+      android:hint="Student_Name"
+       />
+    <EditText
+        android:id="@+id/Student_class"
+        android:layout_marginStart="10dp"
+        android:hint="Student_Class"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/Save"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Save"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/List"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="List"
+            app:cornerRadius="15dp"/>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+        <EditText
+            android:id="@+id/Teacher_Name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Teacher_Name"
+            />
+        <EditText
+            android:id="@+id/Teacher_Sub"
+            android:hint="Teacher_Sub"
+            android:layout_marginStart="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/TSave"
+            android:layout_width="100dp"
+            android:layout_marginLeft="50dp"
+            app:cornerRadius="15dp"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/TList"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:cornerRadius="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="List" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/Book_name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Book_Name"
+            />
+        <EditText
+            android:id="@+id/Book_Publisher"
+            android:hint="B_Publisher"
+            android:layout_width="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BSave"
+            android:layout_width="100dp"
+            android:layout_marginLeft="50dp"
+            app:cornerRadius="15dp"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/BList"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:cornerRadius="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="List" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
